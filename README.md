@@ -1,4 +1,4 @@
-# vuetify-test
+# Carlisle Master Plan
 
 ## Project setup
 ```
