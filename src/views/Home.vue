@@ -12,38 +12,18 @@
           <v-card>
             <v-card-title> Welcome </v-card-title>
             <v-card-text>
-              I'm a spiritual lyrical miracle, <br />
-              my bars aren't satirical, <br />
-              act like u don't hear me tho, <br />
-              cuz if u did u would really know <br />
-              why they all fear me bro... <br />
-              Just a theory tho.
+              Mom's spaghetti, knees weak arms are heavy, there's vomit on the sweater alread, palm's are sweaty, he's nervous but on the surface he looks calm and ready.
             </v-card-text>
           </v-card>
         </v-col>
         <v-col cols="4">
-          <v-card>
-            <v-card-title> Project Updates </v-card-title>
-            <v-card-text>
-              I'm a spiritual lyrical miracle, <br />
-              my bars aren't satirical, <br />
-              act like u don't hear me tho, <br />
-              cuz if u did u would really know <br />
-              why they all fear me bro... <br />
-              Just a theory tho.
-            </v-card-text>
-          </v-card>
+          <project-updates> </project-updates>
         </v-col>
         <v-col cols="4">
           <v-card>
             <v-card-title> Upcoming Events </v-card-title>
             <v-card-text>
-              I'm a spiritual lyrical miracle, <br />
-              my bars aren't satirical, <br />
-              act like u don't hear me tho, <br />
-              cuz if u did u would really know <br />
-              why they all fear me bro... <br />
-              Just a theory tho.
+              Mom's spaghetti, knees weak arms are heavy, there's vomit on the sweater alread, palm's are sweaty, he's nervous but on the surface he looks calm and ready.
             </v-card-text>
           </v-card>
         </v-col>
@@ -51,3 +31,13 @@
     </v-container>
   </div>
 </template>
+
+<script lang="ts">
+import Vue from "vue";
+import ProjectUpdates from "../components/ProjectUpdates.vue";
+export default Vue.extend({
+  components: {
+    ProjectUpdates
+  }
+});
+</script>

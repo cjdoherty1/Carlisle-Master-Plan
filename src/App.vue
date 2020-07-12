@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="backgroundColor: #D3D3D3">
     <v-app-bar app color="primary" dark height="85">
       <div style="padding-bottom: 10px;">
         <v-img
