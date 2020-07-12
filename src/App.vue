@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark height="80">
+    <v-app-bar app color="primary" dark height="85">
       <div style="padding-bottom: 10px;">
         <v-img
           :src="require('@/assets/Carlisle_Seal.png')"
