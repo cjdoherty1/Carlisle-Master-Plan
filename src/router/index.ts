@@ -7,6 +7,7 @@ import IdeaWall from "../views/IdeaWall.vue";
 import Participate from "../views/Participate.vue";
 import ProjectInfo from "../views/ProjectInfo.vue";
 import Snapshots from "../views/Snapshots.vue";
+import Updates from "../views/Updates.vue";
 
 Vue.use(VueRouter);
 
@@ -45,6 +46,11 @@ const routes: RouteConfig[] = [
     path: "/discussion",
     name: "Discussion",
     component: Discussion
+  },
+  {
+    path: "/updates",
+    name: "Updates",
+    component: Updates
   }
 ];
 
