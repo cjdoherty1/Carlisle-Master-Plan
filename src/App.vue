@@ -1,6 +1,6 @@
 <template>
   <v-app style="backgroundColor: #D3D3D3">
-    <v-app-bar app color="primary" dark height="85">
+    <v-app-bar app color="#1E2011" dark height="85">
       <div style="padding-bottom: 10px;">
         <v-img
           :src="require('@/assets/Carlisle_Seal.png')"
@@ -10,11 +10,17 @@
         />
       </div>
       <v-spacer></v-spacer>
-      <v-btn tile text height="85px" to="/">Home</v-btn>
-      <v-btn tile text height="85px" to="/participate">Participate</v-btn>
-      <v-btn tile text height="85px" to="/snapshots">Snapshots</v-btn>
-      <v-btn tile text height="85px" to="/project_info">Project Info</v-btn>
-      <v-btn tile text height="85px" to="/contact">Contact</v-btn>
+      <v-btn tile text width="15%" height="85px" to="/">Home</v-btn>
+      <v-btn tile text width="15%" height="85px" to="/participate"
+        >Participate</v-btn
+      >
+      <v-btn tile text width="15%" height="85px" to="/snapshots"
+        >Snapshots</v-btn
+      >
+      <v-btn tile text width="15%" height="85px" to="/project_info"
+        >Project Info</v-btn
+      >
+      <v-btn tile text width="15%" height="85px" to="/contact">Contact</v-btn>
     </v-app-bar>
 
     <v-content>
