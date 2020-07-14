@@ -19,7 +19,7 @@
           </v-card>
         </v-col>
         <v-col cols="4">
-          <project-updates> </project-updates>
+          <project-updates />
         </v-col>
         <v-col cols="4">
           <v-card height="400px">
