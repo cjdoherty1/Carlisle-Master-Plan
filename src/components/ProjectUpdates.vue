@@ -33,7 +33,8 @@
 import Vue from "vue";
 import Component from "vue-class-component";
 import "vue-property-decorator";
-import VClamp from "vue-clamp";
+//import VClamp from 'vue-clamp';
+const VClamp = require('vue-clamp');
 
 @Component({
   components: {
