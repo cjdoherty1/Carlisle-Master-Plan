@@ -10,7 +10,7 @@
       <v-row>
         <v-col cols="4">
           <v-card height="400px">
-            <v-card-title> Welcome </v-card-title>
+            <v-card-title class="layout justify-center"> Welcome </v-card-title>
             <v-card-text>
               Mom's spaghetti, knees weak arms are heavy, there's vomit on the
               sweater alread, palm's are sweaty, he's nervous but on the surface
@@ -23,7 +23,9 @@
         </v-col>
         <v-col cols="4">
           <v-card height="400px">
-            <v-card-title> Upcoming Events </v-card-title>
+            <v-card-title class="layout justify-center">
+              Upcoming Events
+            </v-card-title>
             <v-card-text>
               Mom's spaghetti, knees weak arms are heavy, there's vomit on the
               sweater alread, palm's are sweaty, he's nervous but on the surface

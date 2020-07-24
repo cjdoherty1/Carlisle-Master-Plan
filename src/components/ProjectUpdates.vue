@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-title> Project Updates </v-card-title>
+    <v-card-title class="layout justify-center"> Project Updates </v-card-title>
     <div style="height: 300px; overflow-y:scroll;">
       <v-container>
         <div v-for="(update, i) in updates" :key="i">
