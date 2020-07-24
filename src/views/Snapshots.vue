@@ -1,11 +1,17 @@
 <template>
   <div>
-    <div>
-      <h1 style="text-align:center;" class="my-6">
-        This is the Snapshots page
-      </h1>
-    </div>
     <v-container>
+      <v-row>
+        <v-col cols="4" />
+        <v-col cols="4">
+          <v-card>
+            <h1 style="font-size:30pt; text-align:center;" class="py-2">
+              Snapshots
+            </h1>
+          </v-card>
+        </v-col>
+      </v-row>
+
       <v-row>
         <v-col cols="3">
           <v-card height="150px">
@@ -40,7 +46,10 @@
         <v-col cols="3">
           <v-card height="150px">
             <v-card-title class="justify-center">
-              <p>Historic and Cultural Resources</p>
+              Historic and Cultural
+            </v-card-title>
+            <v-card-title class="justify-center">
+              Resources
             </v-card-title>
             <v-card-actions class="justify-center">
               <v-btn outlined style="width: 50%" absolute bottom="true"

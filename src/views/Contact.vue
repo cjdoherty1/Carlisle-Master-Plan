@@ -10,6 +10,11 @@
         </v-card>
       </v-col>
     </v-row>
+    <div>
+      <h1 style="font-size:15pt; text-align:center;" class="greytextclass">
+        Question? Comment? Brilliant idea? Use this form to send us a message.
+      </h1>
+    </div>
   </v-container>
 </template>
 
