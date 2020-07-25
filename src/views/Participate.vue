@@ -29,8 +29,13 @@
           <v-card height="200px">
             <v-card-title class="justify-center">Idea Wall</v-card-title>
             <v-card-actions class="justify-center">
-              <v-btn outlined style="width: 50%" absolute bottom="true"
-                >Click to Submit</v-btn
+              <v-btn
+                absolute
+                bottom="true"
+                outlined
+                style="width: 50%;"
+                to="/ideawall"
+                >Click to submit</v-btn
               >
             </v-card-actions>
           </v-card>
@@ -39,8 +44,14 @@
           <v-card height="200px">
             <v-card-title class="justify-center">Input Map</v-card-title>
             <v-card-actions class="justify-center">
-              <v-btn outlined style="width: 50%" absolute bottom="true"
-                >Click to Input</v-btn
+              <v-btn
+                absolute
+                bottom="true"
+                outlined
+                style="width: 50%;"
+                router-link
+                to="/inputmap"
+                >Click to input</v-btn
               >
             </v-card-actions>
           </v-card>
@@ -53,11 +64,16 @@
             <v-card-title class="justify-center"
               >Discussion: Housing</v-card-title
             >
-            <v-card-text align="center" class="justify-center">
-              Tell us what you think!
-            </v-card-text>
+            <v-card-text align="center" class="justify-center"
+              >Tell us what you think!</v-card-text
+            >
             <v-card-actions class="justify-center">
-              <v-btn outlined style="width: 50%" absolute bottom="true"
+              <v-btn
+                outlined
+                style="width: 50%"
+                absolute
+                bottom="true"
+                to="/discussion"
                 >Link to Discussion</v-btn
               >
             </v-card-actions>
@@ -68,11 +84,16 @@
             <v-card-title class="justify-center"
               >Discussion: Community</v-card-title
             >
-            <v-card-text align="center" class="justify-center">
-              Tell us what you think!
-            </v-card-text>
+            <v-card-text align="center" class="justify-center"
+              >Tell us what you think!</v-card-text
+            >
             <v-card-actions class="justify-center">
-              <v-btn outlined style="width: 50%" absolute bottom="true"
+              <v-btn
+                outlined
+                style="width: 50%"
+                absolute
+                bottom="true"
+                to="/discussion"
                 >Link to Discussion</v-btn
               >
             </v-card-actions>
@@ -83,11 +104,16 @@
             <v-card-title class="justify-center"
               >Discussion: Recreation</v-card-title
             >
-            <v-card-text align="center" class="justify-center">
-              Tell us what you think!
-            </v-card-text>
+            <v-card-text align="center" class="justify-center"
+              >Tell us what you think!</v-card-text
+            >
             <v-card-actions class="justify-center">
-              <v-btn outlined style="width: 50%" absolute bottom="true"
+              <v-btn
+                outlined
+                style="width: 50%"
+                absolute
+                bottom="true"
+                to="/discussion"
                 >Link to Discussion</v-btn
               >
             </v-card-actions>

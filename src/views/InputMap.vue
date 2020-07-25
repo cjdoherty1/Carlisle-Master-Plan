@@ -11,7 +11,7 @@ import Component from "vue-class-component";
 @Component({
   components: {}
 })
-export default class IdeaWall extends Vue {
+export default class InputMapPage extends Vue {
   details = "";
   title = "";
 }

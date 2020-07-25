@@ -8,6 +8,7 @@ import Participate from "../views/Participate.vue";
 import ProjectInfo from "../views/ProjectInfo.vue";
 import Snapshots from "../views/Snapshots.vue";
 import Updates from "../views/Updates.vue";
+import InputMap from "../views/InputMap.vue";
 
 Vue.use(VueRouter);
 
@@ -51,6 +52,16 @@ const routes: RouteConfig[] = [
     path: "/updates",
     name: "Updates",
     component: Updates
+  },
+  {
+    path: "/ideawall",
+    name: "IdeaWall",
+    component: IdeaWall
+  },
+  {
+    path: "/inputmap",
+    name: "InputMap",
+    component: InputMap
   }
 ];
 
