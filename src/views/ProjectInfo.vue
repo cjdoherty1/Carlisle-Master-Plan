@@ -15,7 +15,11 @@
       <v-row>
         <v-col cols="4" />
         <v-col cols="4">
-          <v-btn outlined style="width: 100%"
+          <v-btn
+            outlined
+            style="width: 100%"
+            href="https://www.carlislemosquito.org/"
+            target="_blank"
             >Click To Mosquito For Latest News</v-btn
           >
         </v-col>
