@@ -49,7 +49,7 @@
           placeholder="Comment"
         />
       </fieldset>
-      <v-btn style="width:100%;" loading="true">Submit</v-btn>
+      <v-btn style="width:100%;">Submit</v-btn>
     </form>
   </v-container>
 </template>
