@@ -5,7 +5,7 @@
       <v-col cols="4">
         <v-card>
           <h1 style="font-size:30pt; text-align:center;" class="py-2">
-            Contact Us!
+            Contact Us
           </h1>
         </v-card>
       </v-col>
@@ -22,7 +22,7 @@
       </div>
     </v-row>
     <v-row>
-      <v-text-field></v-text-field>
+      <v-text-field outlined="true"></v-text-field>
     </v-row>
 
     <v-row>
@@ -31,7 +31,7 @@
       </div>
     </v-row>
     <v-row>
-      <v-text-field></v-text-field>
+      <v-text-field outlined="true"></v-text-field>
     </v-row>
 
     <v-row>
@@ -40,7 +40,7 @@
       </div>
     </v-row>
     <v-row>
-      <v-text-field></v-text-field>
+      <v-text-field outlined="true"></v-text-field>
     </v-row>
 
     <v-row>
@@ -49,7 +49,7 @@
       </div>
     </v-row>
     <v-row>
-      <v-text-field class="justify-left"></v-text-field>
+      <v-text-field outlined="true"></v-text-field>
     </v-row>
     <v-card-actions class="justify-center">
       <v-btn>
