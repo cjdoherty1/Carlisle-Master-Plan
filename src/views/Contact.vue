@@ -49,7 +49,7 @@
       </div>
     </v-row>
     <v-row>
-      <v-text-field outlined="true"></v-text-field>
+      <v-text-field outlined="true" height="350"></v-text-field>
     </v-row>
     <v-card-actions class="justify-center">
       <v-btn>
