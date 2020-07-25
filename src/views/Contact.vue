@@ -11,10 +11,51 @@
       </v-col>
     </v-row>
     <div>
-      <h1 style="font-size:15pt; text-align:center;" class="greytextclass">
+      <h1 style="font-size:15pt; text-align:center; color:grey">
         Question? Comment? Brilliant idea? Use this form to send us a message.
       </h1>
     </div>
+
+    <v-row>
+      <div>
+        <h1 style="font-size:15pt; text-align:left; color:grey">First Name</h1>
+      </div>
+    </v-row>
+    <v-row>
+      <v-text-field></v-text-field>
+    </v-row>
+
+    <v-row>
+      <div>
+        <h1 style="font-size:15pt; text-align:left; color:grey">Last Name</h1>
+      </div>
+    </v-row>
+    <v-row>
+      <v-text-field></v-text-field>
+    </v-row>
+
+    <v-row>
+      <div>
+        <h1 style="font-size:15pt; text-align:left; color:grey">Email</h1>
+      </div>
+    </v-row>
+    <v-row>
+      <v-text-field></v-text-field>
+    </v-row>
+
+    <v-row>
+      <div>
+        <h1 style="font-size:15pt; text-align:left; color:grey">Comment</h1>
+      </div>
+    </v-row>
+    <v-row>
+      <v-text-field class="justify-left"></v-text-field>
+    </v-row>
+    <v-card-actions class="justify-center">
+      <v-btn>
+        Submit
+      </v-btn>
+    </v-card-actions>
   </v-container>
 </template>
 
