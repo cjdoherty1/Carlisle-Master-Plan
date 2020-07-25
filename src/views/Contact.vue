@@ -22,7 +22,7 @@
       </div>
     </v-row>
     <v-row>
-      <v-text-field outlined="true"></v-text-field>
+      <v-text-field outlined="true" placeholder="First Name"></v-text-field>
     </v-row>
 
     <v-row>
@@ -31,7 +31,7 @@
       </div>
     </v-row>
     <v-row>
-      <v-text-field outlined="true"></v-text-field>
+      <v-text-field outlined="true" placeholder="Required">></v-text-field>
     </v-row>
 
     <v-row>
@@ -40,7 +40,7 @@
       </div>
     </v-row>
     <v-row>
-      <v-text-field outlined="true"></v-text-field>
+      <v-text-field outlined="true" placeholder="Email">></v-text-field>
     </v-row>
 
     <v-row>
@@ -49,7 +49,11 @@
       </div>
     </v-row>
     <v-row>
-      <v-text-field outlined="true" height="350"></v-text-field>
+      <v-text-field
+        outlined="true"
+        height="200"
+        placeholder="Comment"
+      ></v-text-field>
     </v-row>
     <v-card-actions class="justify-center">
       <v-btn>
