@@ -49,7 +49,14 @@
           placeholder="Comment"
         />
       </fieldset>
-      <v-btn style="width:100%;">Submit</v-btn>
+      <v-btn
+        elevation="24"
+        height="40px"
+        color="#3949AB"
+        dark
+        style="width:100%; "
+        >Submit</v-btn
+      >
     </form>
   </v-container>
 </template>
