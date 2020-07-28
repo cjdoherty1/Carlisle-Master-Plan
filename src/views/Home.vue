@@ -3,12 +3,13 @@
     <v-img
       :src="require('@/assets/Carlisle Center Aerial.png')"
       alt="Great Brook Banner"
-      height="760px"
+      width="100%"
+      height="100vh"
     >
       <h1
         style="font-size:60pt; text-align:center; margin-top:260px; color: white"
       >
-        Carlisle Forward Master Plan
+        <strong>Carlisle Forward Master Plan</strong>
       </h1>
       <v-btn
         color="#3949AB"
@@ -21,7 +22,7 @@
           left: '50%',
           transform: 'translateY(1000%) translateX(-50%)'
         }"
-        >Click Here to Help Plan Carlisle's Future!</v-btn
+        ><strong>Click Here to Help Plan Carlisle's Future!</strong></v-btn
       >
     </v-img>
     <v-container>
@@ -31,32 +32,35 @@
             <v-card-title
               style="color: #3949AB; font-size: 30px"
               class="layout justify-center"
-              >WELCOME!</v-card-title
+              ><strong>WELCOME!</strong></v-card-title
             >
-            <v-card-text style="color: #1B5E20" class="py-2">
-              The Town of Carlisle is undertaking a comprehensive, community-led
-              master planning process, entitled “Carlisle Forward: Path to a
-              Sustainable Future”. The town is working to engage all facets of
-              the community in a conversation about our shared values and
-              collective vision for Carlisle as we navigate the coming decades.
-              In order to do this, we need YOU!
-            </v-card-text>
-            <v-card-text style="color: #1B5E20" class="py-0">
-              The purpose of the project is to develop a community-driven
-              strategy to be used to guide decision-making regarding land use
-              policy, investment priorities, and town initiatives in our
-              community. Ultimately, we will create a document that:
-            </v-card-text>
-            <v-card-text style="color: #1B5E20" class="py-0"
-              >• Sets forth our shared vision and goals for
-              Carlisle.</v-card-text
-            >
-            <v-card-text style="color: #1B5E20" class="py-0">
-              • Includes recommendations for achieving our vision and goals.
-            </v-card-text>
-            <v-card-text style="color: #1B5E20" class="py-0">
-              • Includes an implementation action plan for getting things done.
-            </v-card-text>
+            <div style="height: 425px; overflow-y:scroll;">
+              <v-card-text style="color: #1B5E20" class="py-2">
+                The Town of Carlisle is undertaking a comprehensive,
+                community-led master planning process, entitled “Carlisle
+                Forward: Path to a Sustainable Future”. The town is working to
+                engage all facets of the community in a conversation about our
+                shared values and collective vision for Carlisle as we navigate
+                the coming decades. In order to do this, we need YOU!
+              </v-card-text>
+              <v-card-text style="color: #1B5E20" class="py-0">
+                The purpose of the project is to develop a community-driven
+                strategy to be used to guide decision-making regarding land use
+                policy, investment priorities, and town initiatives in our
+                community. Ultimately, we will create a document that:
+              </v-card-text>
+              <v-card-text style="color: #1B5E20" class="py-0">
+                • Sets forth our shared vision and goals for Carlisle.
+              </v-card-text>
+              <v-card-text style="color: #1B5E20" class="py-0"
+                >• Includes recommendations for achieving our vision and
+                goals.</v-card-text
+              >
+              <v-card-text style="color: #1B5E20" class="py-0"
+                >• Includes an implementation action plan for getting things
+                done.</v-card-text
+              >
+            </div>
             <v-card-actions class="justify-center">
               <v-btn
                 color="#3949AB"
@@ -78,7 +82,7 @@
             <v-card-title
               style="color: #3949AB; font-size: 30px"
               class="layout justify-center"
-              >Upcoming Events</v-card-title
+              ><strong>UPCOMING EVENTS</strong></v-card-title
             >
             <v-card-text style="color: #1B5E20">
               Mom's spaghetti, knees weak arms are heavy, there's vomit on the

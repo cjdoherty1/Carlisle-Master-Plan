@@ -17,7 +17,9 @@
       <v-row>
         <v-col cols="4">
           <v-card height="200px">
-            <v-card-title style="color: #3949AB" class="justify-center"
+            <v-card-title
+              style="color: #3949AB; font-weight:bold"
+              class="justify-center"
               >Sign Up For Updates</v-card-title
             >
             <v-card-actions class="justify-center">
@@ -35,7 +37,9 @@
         </v-col>
         <v-col cols="4">
           <v-card height="200px">
-            <v-card-title style="color: #3949AB" class="justify-center"
+            <v-card-title
+              style="color: #3949AB; font-weight:bold"
+              class="justify-center"
               >Idea Wall</v-card-title
             >
             <v-card-actions class="justify-center">
@@ -54,7 +58,9 @@
         </v-col>
         <v-col cols="4">
           <v-card height="200px">
-            <v-card-title style="color: #3949AB" class="justify-center"
+            <v-card-title
+              style="color: #3949AB; font-weight:bold"
+              class="justify-center"
               >Input Map</v-card-title
             >
             <v-card-actions class="justify-center">
@@ -77,7 +83,9 @@
       <v-row>
         <v-col cols="4">
           <v-card height="200px">
-            <v-card-title style="color: #3949AB" class="justify-center"
+            <v-card-title
+              style="color: #3949AB; font-weight:bold"
+              class="justify-center"
               >Discussion: Housing</v-card-title
             >
             <v-card-text
@@ -102,7 +110,9 @@
         </v-col>
         <v-col cols="4">
           <v-card height="200px">
-            <v-card-title style="color: #3949AB" class="justify-center"
+            <v-card-title
+              style="color: #3949AB; font-weight:bold"
+              class="justify-center"
               >Discussion: Community</v-card-title
             >
             <v-card-text
@@ -127,7 +137,9 @@
         </v-col>
         <v-col cols="4">
           <v-card height="200px">
-            <v-card-title style="color: #3949AB" class="justify-center"
+            <v-card-title
+              style="color: #3949AB; font-weight:bold"
+              class="justify-center"
               >Discussion: Recreation</v-card-title
             >
             <v-card-text
