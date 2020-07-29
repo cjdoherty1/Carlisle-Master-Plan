@@ -46,9 +46,7 @@
         <v-col cols="3">
           <v-card height="150px">
             <v-card-title class="justify-center">
-              Historic and Cultural
-            </v-card-title>
-            <v-card-title class="justify-center">
+              Historic and Cultural <br />
               Resources
             </v-card-title>
             <v-card-actions class="justify-center">
@@ -96,7 +94,7 @@
         <v-col cols="3">
           <v-card height="150px">
             <v-card-title class="justify-center"
-              >Public Facilities and Infrastructure</v-card-title
+              >Public Facilities<br />and Infrastructure</v-card-title
             >
             <v-card-actions class="justify-center">
               <v-btn outlined style="width: 50%" absolute bottom="true"
