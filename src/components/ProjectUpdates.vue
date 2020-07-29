@@ -3,9 +3,9 @@
     <v-card-title
       style="color: #3949AB; font-size: 30px"
       class="layout justify-center"
-      >PROJECT UPDATES</v-card-title
+      ><strong>PROJECT UPDATES</strong></v-card-title
     >
-    <div style="height: 300px; overflow-y:scroll;">
+    <div style="height: 425px; overflow-y:scroll;">
       <v-container>
         <div v-for="(update, i) in updates" :key="i">
           <v-divider />
