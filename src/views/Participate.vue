@@ -1,12 +1,5 @@
 <template>
   <div>
-    <v-img
-      :src="require('@/assets/Background 2 (1).jpg')"
-      alt="Participate Background"
-      eager
-      lazy-src
-      contain
-    />
     <v-container>
       <div class="py-8">
         <h1

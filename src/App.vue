@@ -1,5 +1,13 @@
 <template>
   <v-app>
+    <v-img
+      v-if="this.$router.currentRoute.name != 'Home'"
+      :src="require('@/assets/Background 2 (1).jpg')"
+      alt="Participate Background"
+      eager
+      lazy-src
+      contain
+    />
     <v-app-bar :color="col" dark height="90" elevation="0" fixed top>
       <div style="padding-bottom: 10px; padding-top: 10px">
         <v-img
