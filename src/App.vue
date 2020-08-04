@@ -83,7 +83,8 @@ export default {
   methods: {
     updateScroll() {
       this.scrollPosition = window.scrollY;
-      this.col = window.scrollY > 50 ? "rgba(40, 40, 40, 0.85)" : "transparent";
+      this.col =
+        this.scrollPosition > 50 ? "rgba(40, 40, 40, 0.85)" : "transparent";
     }
   },
 

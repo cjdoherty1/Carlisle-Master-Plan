@@ -2,6 +2,7 @@
   <div>
     <v-img
       :src="require('@/assets/Carlisle Center Aerial.png')"
+      eager
       alt="Great Brook Banner"
       width="100%"
       height="100vh"
