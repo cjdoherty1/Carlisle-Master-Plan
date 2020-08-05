@@ -1,16 +1,13 @@
 <template>
   <div>
     <v-container>
-      <v-row>
-        <v-col cols="4" />
-        <v-col cols="4">
-          <v-card>
-            <h1 style="font-size:30pt; text-align:center;" class="py-2">
-              Project Info
-            </h1>
-          </v-card>
-        </v-col>
-      </v-row>
+      <div class="py-8">
+        <h1
+          style="color: #3949AB; font-size: 70px; text-align: center; font-weight:bold"
+        >
+          Project Info
+        </h1>
+      </div>
 
       <v-row>
         <v-col cols="4" />

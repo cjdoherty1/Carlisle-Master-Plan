@@ -37,30 +37,37 @@
             >
             <div style="height: 425px; overflow-y:scroll;">
               <v-card-text style="color: #1B5E20" class="py-2">
-                The Town of Carlisle is undertaking a comprehensive,
-                community-led master planning process, entitled “Carlisle
-                Forward: Path to a Sustainable Future”. The town is working to
-                engage all facets of the community in a conversation about our
-                shared values and collective vision for Carlisle as we navigate
-                the coming decades. In order to do this, we need YOU!
+                The Town of Carlisle is undertaking a comprehensive master
+                planning process, entitled “Carlisle Forward: Path to a
+                Sustainable Future”. The purpose of the project is to develop a
+                community-driven strategy that will guide decision-making
+                regarding planning policy, investment priorities, and town
+                initiatives for Carlisle. Ultimately, we will create a document
+                that:
               </v-card-text>
               <v-card-text style="color: #1B5E20" class="py-0">
-                The purpose of the project is to develop a community-driven
-                strategy to be used to guide decision-making regarding land use
-                policy, investment priorities, and town initiatives in our
-                community. Ultimately, we will create a document that:
-              </v-card-text>
-              <v-card-text style="color: #1B5E20" class="py-0">
-                • Sets forth our shared vision and goals for Carlisle.
+                • Sets forth our shared vision, values and goals for Carlisle in
+                the long-term.
               </v-card-text>
               <v-card-text style="color: #1B5E20" class="py-0"
-                >• Includes recommendations for achieving our vision and
-                goals.</v-card-text
-              >
+                >• Includes planning recommendations for achieving our vision
+                and goals.
+              </v-card-text>
               <v-card-text style="color: #1B5E20" class="py-0"
                 >• Includes an implementation action plan for getting things
-                done.</v-card-text
+                done in the short-term.
+              </v-card-text>
+              <v-card-text style="color: #1B5E20" class="py-2">
+                The all-volunteer Master Plan Steering Committee (MPSC), is
+                working to engage the community in a conversation about our
+                shared values and collective vision for Carlisle’s future.
+              </v-card-text>
+              <v-card-text
+                style="color: #1B5E20; font-weight:bold"
+                class="py-2"
               >
+                We need you and we want to hear your ideas!
+              </v-card-text>
             </div>
             <v-card-actions class="justify-center">
               <v-btn
@@ -86,9 +93,12 @@
               ><strong>UPCOMING EVENTS</strong></v-card-title
             >
             <v-card-text style="color: #1B5E20">
-              Mom's spaghetti, knees weak arms are heavy, there's vomit on the
-              sweater alread, palm's are sweaty, he's nervous but on the surface
-              he looks calm and ready.
+              Here you can find many different ways to participate in the Master
+              Plan process. Sign up for Updates, post your comments on the Idea
+              Wall, put a pin and comment on the Interactive Map, or join in on
+              one of the Discussions underway below. Your input is critical to
+              the success of the Master Plan. Interested in volunteering? We are
+              always looking for community members to help. Let us know here.
             </v-card-text>
             <v-card-actions class="justify-center">
               <v-btn
