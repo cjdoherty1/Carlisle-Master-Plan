@@ -15,6 +15,9 @@
           <v-btn
             outlined
             style="width: 100%"
+            color="#3949AB"
+            dark
+            elevation="4"
             href="https://www.carlislemosquito.org/"
             target="_blank"
             >Click To Mosquito For Latest News</v-btn
@@ -28,7 +31,13 @@
             <v-card-title class="justify-center">FAQ</v-card-title>
             <v-card-text align="center">Filler</v-card-text>
             <v-card-actions class="justify-center">
-              <v-btn outlined style="width: 50%" absolute bottom="true"
+              <v-btn
+                color="#3949AB"
+                dark
+                elevation="4"
+                style="width: 50%"
+                absolute
+                bottom="true"
                 >Click For More</v-btn
               >
             </v-card-actions>
@@ -39,7 +48,13 @@
             <v-card-title class="justify-center">Schedule</v-card-title>
             <v-card-text align="center">Filler</v-card-text>
             <v-card-actions class="justify-center">
-              <v-btn outlined style="width: 50%" absolute bottom="true"
+              <v-btn
+                color="#3949AB"
+                dark
+                elevation="4"
+                style="width: 50%"
+                absolute
+                bottom="true"
                 >Click For More</v-btn
               >
             </v-card-actions>
@@ -52,7 +67,13 @@
             >
             <v-card-text align="center">Filler</v-card-text>
             <v-card-actions class="justify-center">
-              <v-btn outlined style="width: 50%" absolute bottom="true"
+              <v-btn
+                color="#3949AB"
+                dark
+                elevation="4"
+                style="width: 50%"
+                absolute
+                bottom="true"
                 >Click For More</v-btn
               >
             </v-card-actions>
@@ -63,9 +84,9 @@
       <v-row>
         <v-col cols="4" />
         <v-col cols="4">
-          <v-btn outlined style="width: 100%"
-            >Click For Background Documents</v-btn
-          >
+          <v-btn color="#3949AB" dark outlined elevation="4" style="width: 100%"
+            >Click For Background Documents
+          </v-btn>
         </v-col>
       </v-row>
     </v-container>
