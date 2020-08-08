@@ -20,7 +20,8 @@ html {
 
 html {
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  overflow-y: scroll }
 
 body {
   margin: 0; }

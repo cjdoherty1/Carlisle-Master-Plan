@@ -1,18 +1,20 @@
 <template>
   <v-app>
-    <v-img
-      v-if="this.$router.currentRoute.name != 'Home'"
-      :src="require('@/assets/Background 2 (1).jpg')"
-      alt="Participate Background"
-      eager
-      lazy-src
-      contain
-    />
+    <div>
+      <v-img
+        v-if="this.$router.currentRoute.name != 'Home'"
+        :src="require('@/assets/Background 2 (1).jpg')"
+        alt="Participate Background"
+        eager
+        lazy-src
+        contain
+      />
+    </div>
     <v-app-bar :color="col" dark height="90" elevation="0" fixed top>
       <div style="padding-bottom: 10px; padding-top: 10px">
         <v-img
           class="py-2"
-          :src="require('@/assets/Dark Blue_SustainablePath.png')"
+          :src="require('@/assets/Logo_Light.png')"
           alt="Carlise Master Plan"
           contain
           height="500"
@@ -37,9 +39,9 @@
         <v-icon x-large color="#81C784">mdi-email</v-icon>Contact
       </v-btn>
     </v-app-bar>
-    <v-content>
+    <v-main style="absolute bottom: 300px">
       <router-view></router-view>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 
