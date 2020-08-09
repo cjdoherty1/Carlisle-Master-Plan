@@ -1,17 +1,15 @@
 <template>
-  <div>
+  <div style="padding-top: 100px">
     <v-container>
       <div class="py-1">
         <h1
-          style="color: #3949AB; font-size: 70px; text-align: center; font-weight:bold"
+          style="color: white; font-size: 70px; text-align: center; font-weight:bold"
         >
           PARTICIPATE!
         </h1>
       </div>
       <div class="py-8">
-        <h1
-          style="color: #66BB6A; font-size: 20px; text-align: left; font-weight:bold"
-        >
+        <h1 style="font-size:15pt; color:grey; padding-top: 30px">
           Here you can find many different ways to participate in the Master
           Plan process. Sign up for Updates, post your comments on the Idea
           Wall, put a pin and comment on the Interactive Map, or join in on one

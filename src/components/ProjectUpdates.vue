@@ -3,19 +3,19 @@
     <v-card-title
       style="color: #3949AB; font-size: 30px"
       class="layout justify-center"
-      ><strong>PROJECT UPDATES</strong></v-card-title
     >
+      <strong>PROJECT UPDATES</strong>
+    </v-card-title>
     <div style="height: 425px; overflow-y:scroll;">
       <v-container>
         <div v-for="(update, i) in updates" :key="i">
           <v-divider />
           <v-card flat class="my-2">
             <v-card-title style="color: #3949AB"
-              >Update {{ i + 1 }}</v-card-title
+              >August 12: Carlisle Forward Next Steps</v-card-title
             >
-            <v-card-subtitle style="color: #3949AB">Date</v-card-subtitle>
             <v-card-text style="color: #1B5E20">
-              <VClamp :expanded.sync="expanded" :max-lines="3">
+              <VClamp :expanded.sync="expanded" :max-lines="1000">
                 {{ update }}
                 <!--template slot="after" slot-scope="{toggle, expanded, clamped}">
           <v-icon fab v-if="!expanded && clamped" right medium @click="toggle"
@@ -81,9 +81,9 @@ export default class ProjectUpdates extends Vue {
 
   get updates(): string[] {
     const ups = [];
-    for (let i = 0; i < 2; i++) {
+    for (let i = 0; i < 1; i++) {
       ups.push(
-        "Mom's spaghetti, knees weak arms are heavy, there's vomit on the sweater alread, palm's are sweaty, he's nervous but on the surface he looks calm and ready."
+        "In July 2019, the Master Plan consultant, CivicMoxie, resigned their assignment with the Town of Carlisle.  In response, the MPSC is developing a revised schedule and scope of work, taking into consideration unknowns regarding the Pandemic and how it is affecting our families and our community.  The MPSC anticipates developing a plan for next steps of the Carlisle Forward Master Plan by early September."
       );
     }
     return ups;

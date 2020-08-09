@@ -8,6 +8,7 @@
         eager
         lazy-src
         contain
+        style="position:absolute; top: 0px"
       />
     </div>
     <v-app-bar :color="col" dark height="90" elevation="0" fixed top>
@@ -23,23 +24,37 @@
       </div>
       <v-spacer></v-spacer>
       <v-btn tile text width="15%" height="90px" to="/">
-        <v-icon x-large color="#81C784">mdi-home</v-icon>Home
+        <v-icon x-large color="#81C784">mdi-home</v-icon>
+        <p style="font-size: 15pt; padding-top: 20px">
+          <strong>Home</strong>
+        </p>
       </v-btn>
       <v-btn tile text width="15%" height="90px" to="/participate">
-        <v-icon x-large color="#81C784">mdi-message-text</v-icon>participate
+        <v-icon x-large color="#81C784">mdi-message-text</v-icon>
+        <p style="font-size: 15pt; padding-top: 20px">
+          <strong>participate</strong>
+        </p>
       </v-btn>
       <v-btn tile text width="15%" height="90px" to="/snapshots">
-        <v-icon x-large color="#81C784">mdi-camera</v-icon>Snapshots
+        <v-icon x-large color="#81C784">mdi-camera</v-icon>
+        <p style="font-size: 15pt; padding-top: 20px">
+          <strong>snapshots</strong>
+        </p>
       </v-btn>
       <v-btn tile text width="15%" height="90px" to="/project_info">
-        <v-icon x-large color="#81C784">mdi-information-outline</v-icon>Project
-        Info
+        <v-icon x-large color="#81C784">mdi-information-outline</v-icon>
+        <p style="font-size: 15pt; padding-top: 20px">
+          <strong>project info</strong>
+        </p>
       </v-btn>
       <v-btn tile text width="15%" height="90px" to="/contact">
-        <v-icon x-large color="#81C784">mdi-email</v-icon>Contact
+        <v-icon x-large color="#81C784">mdi-email</v-icon>
+        <p style="font-size: 15pt; padding-top: 20px">
+          <strong>Contact</strong>
+        </p>
       </v-btn>
     </v-app-bar>
-    <v-main style="absolute bottom: 300px">
+    <v-main>
       <router-view></router-view>
     </v-main>
   </v-app>
