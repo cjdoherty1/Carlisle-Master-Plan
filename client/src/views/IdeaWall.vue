@@ -13,7 +13,6 @@
 
 <script lang="ts">
 import Vue from "vue";
-import Component from "vue-class-component";
 import ClickToEdit from "../components/ClickToEdit.vue";
 export default Vue.extend({
   components: {

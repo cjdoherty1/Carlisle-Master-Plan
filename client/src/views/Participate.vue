@@ -27,11 +27,14 @@
               class="justify-center"
               >Sign Up For Updates</v-card-title
             >
-              <div style="margin:auto; width:50%; padding-left:5%; padding-top:10px;">
-                <v-icon x-large color="#81C784" style="padding-left:50px">mdi-checkbox-marked-outline</v-icon>
-              </div>
+            <div
+              style="margin:auto; width:50%; padding-left:5%; padding-top:10px;"
+            >
+              <v-icon x-large color="#81C784" style="padding-left:50px"
+                >mdi-checkbox-marked-outline</v-icon
+              >
+            </div>
             <v-card-actions class="justify-center">
-              
               <v-btn
                 color="#3949AB"
                 dark
@@ -51,9 +54,13 @@
               class="justify-center"
               >Idea Wall</v-card-title
             >
-            <div style="margin:auto; width:50%; padding-left:5%; padding-top:10px;">
-                <v-icon x-large color="#81C784" style="padding-left:50px">mdi-lightbulb-on-outline</v-icon>
-              </div>
+            <div
+              style="margin:auto; width:50%; padding-left:5%; padding-top:10px;"
+            >
+              <v-icon x-large color="#81C784" style="padding-left:50px"
+                >mdi-lightbulb-on-outline</v-icon
+              >
+            </div>
             <v-card-actions class="justify-center">
               <v-btn
                 absolute
@@ -76,9 +83,13 @@
               >Input Map</v-card-title
             >
 
-            <div style="margin:auto; width:50%; padding-left:5%; padding-top:10px;">
-                <v-icon x-large color="#81C784" style="padding-left:50px">mdi-map</v-icon>
-              </div>
+            <div
+              style="margin:auto; width:50%; padding-left:5%; padding-top:10px;"
+            >
+              <v-icon x-large color="#81C784" style="padding-left:50px"
+                >mdi-map</v-icon
+              >
+            </div>
             <v-card-actions class="justify-center">
               <v-btn
                 absolute
@@ -111,7 +122,9 @@
               >Tell us what you think!</v-card-text
             >
             <div style="margin:auto; width:50%; padding-left:5%;">
-                <v-icon x-large color="#81C784" style="padding-left:50px">mdi-home-group</v-icon>
+              <v-icon x-large color="#81C784" style="padding-left:50px"
+                >mdi-home-group</v-icon
+              >
             </div>
             <v-card-actions class="justify-center">
               <v-btn
@@ -141,7 +154,9 @@
               >Tell us what you think!</v-card-text
             >
             <div style="margin:auto; width:50%; padding-left:5%;">
-                <v-icon x-large color="#81C784" style="padding-left:50px">mdi-account-group</v-icon>
+              <v-icon x-large color="#81C784" style="padding-left:50px"
+                >mdi-account-group</v-icon
+              >
             </div>
             <v-card-actions class="justify-center">
               <v-btn
@@ -171,7 +186,9 @@
               >Tell us what you think!</v-card-text
             >
             <div style="margin:auto; width:50%; padding-left:5%;">
-                <v-icon x-large color="#81C784" style="padding-left:50px">mdi-comment-account</v-icon>
+              <v-icon x-large color="#81C784" style="padding-left:50px"
+                >mdi-comment-account</v-icon
+              >
             </div>
             <v-card-actions class="justify-center">
               <v-btn
