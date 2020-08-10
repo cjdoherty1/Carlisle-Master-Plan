@@ -1,6 +1,9 @@
 <template>
   <v-card flat height="575px">
-    <v-card-title style="color: #3949AB; font-size: 30px" class="layout justify-center">
+    <v-card-title
+      style="color: #3949AB; font-size: 30px"
+      class="layout justify-center"
+    >
       <strong>PROJECT UPDATES</strong>
     </v-card-title>
     <div style="height: 425px; overflow-y:scroll;">
@@ -9,18 +12,19 @@
           <v-divider />
           <v-card flat class="my-2">
             <v-card-title style="color: #3949AB">
-              {{
-              update.title
-              }}
+              {{ update.title }}
             </v-card-title>
             <v-card-subtitle style="color: #3949AB">
               {{
-              `${update.createdAt.getMonth() + 1}/${update.createdAt.getDate()}/${update.createdAt.getFullYear()}`
+                `${update.createdAt.getMonth() +
+                  1}/${update.createdAt.getDate()}/${update.createdAt.getFullYear()}`
               }}
               by {{ update.author }}
             </v-card-subtitle>
             <v-card-text style="color: #1B5E20">
-              <VClamp :expanded.sync="expanded" :max-lines="1000">{{ update.text }}</VClamp>
+              <VClamp :expanded.sync="expanded" :max-lines="1000">{{
+                update.text
+              }}</VClamp>
             </v-card-text>
           </v-card>
         </div>
@@ -35,7 +39,8 @@
         absolute
         bottom
         to="/updates"
-      >More Updates</v-btn>
+        >More Updates</v-btn
+      >
     </v-card-actions>
   </v-card>
 </template>
