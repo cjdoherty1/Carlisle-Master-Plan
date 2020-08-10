@@ -2,7 +2,11 @@
   <div style="padding-top: 100px">
     <v-container>
       <div class="py-1">
-        <h1 style="color: white; font-size: 70px; text-align: center; font-weight:bold">SNAPSHOTS!</h1>
+        <h1
+          style="color: white; font-size: 70px; text-align: center; font-weight:bold"
+        >
+          SNAPSHOTS!
+        </h1>
       </div>
       <div class="py-8">
         <h1 style="font-size:13pt; color:black; padding-top: 30px">
@@ -23,7 +27,8 @@
             <v-card-title
               style="color: #3949AB; font-weight:bold"
               class="justify-center"
-            >Demographics</v-card-title>
+              >Demographics</v-card-title
+            >
           </v-card>
         </v-col>
         <v-col cols="4">
@@ -31,19 +36,27 @@
             <v-card-title
               style="color: #3949AB; font-weight:bold"
               class="justify-center"
-            >Economic Context</v-card-title>
+              >Economic Context</v-card-title
+            >
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title style="color: #3949AB; font-weight:bold" class="justify-center">Housing</v-card-title>
+            <v-card-title
+              style="color: #3949AB; font-weight:bold"
+              class="justify-center"
+              >Housing</v-card-title
+            >
           </v-card>
         </v-col>
       </v-row>
       <v-row>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title style="color: #3949AB; font-weight:bold" class="justify-center">
+            <v-card-title
+              style="color: #3949AB; font-weight:bold"
+              class="justify-center"
+            >
               Historic and Cultural
               <br />Resources
             </v-card-title>
@@ -54,7 +67,8 @@
             <v-card-title
               style="color: #3949AB; font-weight:bold"
               class="justify-center"
-            >Transportation</v-card-title>
+              >Transportation</v-card-title
+            >
           </v-card>
         </v-col>
         <v-col cols="4">
@@ -62,53 +76,93 @@
             <v-card-title
               style="color: #3949AB; font-weight:bold"
               class="justify-center"
-            >Sustainability</v-card-title>
+              >Sustainability</v-card-title
+            >
           </v-card>
         </v-col>
       </v-row>
       <v-row>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title
-              class="justify-center"
-              style="color: #3949AB; font-weight:bold"
-              text-alligen-center
+            <v-img
+              gradient
+              :src="
+                require('@/assets/Great_Brook_Farm_State_Park,_Carlisle_MA.png')
+              "
+              height="300"
+              class="white--text align-end"
             >
-              <div style="text-align:center">
-                Open Space, Recreation
-                <br />& Natural Resources
-              </div>
-            </v-card-title>
+              <v-card-title
+                class="justify-center"
+                style="font-weight:bold"
+                text-alligen-center
+              >
+                <div style="text-align:center">
+                  Open Space, Recreation
+                  <br />& Natural Resources
+                </div>
+              </v-card-title>
+            </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title style="color: #3949AB; font-weight:bold" class="justify-center">
-              <div style="text-align:center">
-                Public Facilities
-                <br />& Infrastructure
-              </div>
-            </v-card-title>
+            <v-img
+              gradient
+              :src="require('@/assets/Library_-_Carlisle,_MA_-_IMG_1037.png')"
+              height="300"
+              class="white--text align-end"
+            >
+              <v-card-title style="font-weight:bold" class="justify-center">
+                <div style="text-align:center">
+                  Public Facilities
+                  <br />& Infrastructure
+                </div>
+              </v-card-title></v-img
+            >
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title
-              class="justify-center"
-              style="color: #3949AB; font-weight:bold"
-            >Land Use and Zoning</v-card-title>
+            <v-img
+              gradient
+              :src="require('@/assets/Europe_land_use_map.png')"
+              height="300"
+              class="white--text align-end"
+              ><v-card-title style="font-weight:bold"
+                >Land Use & Zoning</v-card-title
+              ></v-img
+            >
           </v-card>
         </v-col>
       </v-row>
       <v-row class="justify-center">
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title style="color: #3949AB; font-weight:bold" class="justify-center">School</v-card-title>
+            <v-img
+              gradient
+              :src="require('@/assets/CPS_1520x656.png')"
+              height="300"
+              class="white--text align-end"
+              ><v-card-title style="font-weight:bold" class="justify-center"
+                >School</v-card-title
+              ></v-img
+            >
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title style="color: #3949AB; font-weight:bold" class="justify-center">Governance</v-card-title>
+            <v-img
+              gradient
+              :src="
+                require('@/assets/Corporate-governance-A-pathway-to-sustainability-strategy.png')
+              "
+              height="300"
+              class="white--text align-end"
+              ><v-card-title style="font-weight:bold" class="justify-center"
+                >Governance</v-card-title
+              ></v-img
+            >
           </v-card>
         </v-col>
       </v-row>

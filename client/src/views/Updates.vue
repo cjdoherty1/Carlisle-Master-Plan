@@ -3,13 +3,15 @@
     <v-container>
       <v-row>
         <v-col cols="8">
-          <v-card tile outlined><v-card-title> Project Updates </v-card-title> </v-card>
+          <v-card tile outlined
+            ><v-card-title> Project Updates </v-card-title>
+          </v-card>
           <v-card tile outlined>
             <v-card v-for="(update, i) in updates" :key="i" tile outlined>
               <v-card-title>{{ update.title }}</v-card-title>
               <v-card-subtitle>
                 {{
-                `${update.createdAt.getDate()}/${update.createdAt.getMonth()}/${update.createdAt.getFullYear()}`
+                  `${update.createdAt.getDate()}/${update.createdAt.getMonth()}/${update.createdAt.getFullYear()}`
                 }}
                 by {{ update.author }}
               </v-card-subtitle>

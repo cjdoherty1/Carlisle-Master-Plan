@@ -3,7 +3,12 @@
     <v-container>
       <v-row>
         <v-col cols="8">
-          <v-tabs horizontal :value="activeTab" active @click="console.log('activeTab')">
+          <v-tabs
+            horizontal
+            :value="activeTab"
+            active
+            @click="console.log('activeTab')"
+          >
             <v-tabs-slider></v-tabs-slider>
             <v-tab>Property Values</v-tab>
             <v-tab>
@@ -11,7 +16,13 @@
             </v-tab>
             <v-tab>Affordable Housing</v-tab>
             <v-tab-item style="padding-top: 10px">
-              <v-card v-for="(update, i) in updates" :key="i" tile elevation="0" class="my-0">
+              <v-card
+                v-for="(update, i) in updates"
+                :key="i"
+                tile
+                elevation="0"
+                class="my-0"
+              >
                 <v-card-text>
                   <div style="color: #3949AB;">{{ update.author }}:</div>
                   {{ update.text }}
