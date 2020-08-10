@@ -20,60 +20,62 @@
       <v-row>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title
-              style="color: #3949AB; font-weight:bold"
-              class="justify-center"
-            >Demographics</v-card-title>
+            <v-img src="@/assets/demographics.jpg" height="300" class="text align-end">
+              <v-card-title style="color: white; font-weight:bold; font-size: 25pt" class="strokeme">Demographics</v-card-title>
+            </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title
-              style="color: #3949AB; font-weight:bold"
-              class="justify-center"
-            >Economic Context</v-card-title>
+            <v-img src="@/assets/economic.jpg" height="300" class="text align-end">
+              <v-card-title style="color: white; font-weight:bold; font-size:25pt" class="strokeme">Economic Context</v-card-title>
+            </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title style="color: #3949AB; font-weight:bold" class="justify-center">Housing</v-card-title>
+            <v-img src="@/assets/ferns.jpg" height="300" class="text align-end">
+              <v-card-title style="color: white; font-weight:bold; font-size:25pt" class="strokeme">Housing</v-card-title>
+            </v-img>
           </v-card>
         </v-col>
       </v-row>
       <v-row>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title style="color: #3949AB; font-weight:bold" class="justify-center">
-              Historic and Cultural
-              <br />Resources
+            <v-img src="@/assets/historic.jpg" height="300" class="text align-end">
+            <v-card-title style="color: white; font-weight:bold; font-size: 25pt" class="strokeme">
+              <div>
+                Historic & Cultural
+                <br />Resources
+              </div>
             </v-card-title>
+            </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
+            <v-img src="@/assets/transportation.jpg" height="300" class="text align-end">
             <v-card-title
-              style="color: #3949AB; font-weight:bold"
-              class="justify-center"
+              style="color: white; font-weight:bold; font-size:25pt" class="strokeme"
             >Transportation</v-card-title>
+            </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
+            <v-img src="@/assets/sustain.jpg" height="300" class="text align-end">
             <v-card-title
-              style="color: #3949AB; font-weight:bold"
-              class="justify-center"
+              style="color: white; font-weight:bold; font-size:25pt" class="strokeme"
             >Sustainability</v-card-title>
+            </v-img>
           </v-card>
         </v-col>
       </v-row>
       <v-row>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-card-title
-              class="justify-center"
-              style="color: #3949AB; font-weight:bold"
-              text-alligen-center
-            >
+            <v-card-title class="justify-center" style="color: #3949AB; font-weight:bold">
               <div style="text-align:center">
                 Open Space, Recreation
                 <br />& Natural Resources
@@ -96,7 +98,7 @@
             <v-card-title
               class="justify-center"
               style="color: #3949AB; font-weight:bold"
-            >Land Use and Zoning</v-card-title>
+            >Land Use & Zoning</v-card-title>
           </v-card>
         </v-col>
       </v-row>
@@ -115,6 +117,18 @@
     </v-container>
   </div>
 </template>
+
+<style scoped>
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+</style>
 
 <script lang="ts">
 import Vue from "vue";
