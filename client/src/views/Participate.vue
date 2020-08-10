@@ -9,7 +9,7 @@
         </h1>
       </div>
       <div class="py-8">
-        <h1 style="font-size:15pt; color:grey; padding-top: 30px">
+        <h1 style="font-size:13pt; color:black; padding-top: 30px">
           Here you can find many different ways to participate in the Master
           Plan process. Sign up for Updates, post your comments on the Idea
           Wall, put a pin and comment on the Interactive Map, or join in on one
@@ -21,7 +21,7 @@
 
       <v-row>
         <v-col cols="4">
-          <v-card height="200px">
+          <v-card height="200px" outlined tile>
             <v-card-title
               style="color: #3949AB; font-weight:bold"
               class="justify-center"
@@ -48,7 +48,7 @@
           </v-card>
         </v-col>
         <v-col cols="4">
-          <v-card height="200px">
+          <v-card height="200px" tile outlined>
             <v-card-title
               style="color: #3949AB; font-weight:bold"
               class="justify-center"
@@ -76,7 +76,7 @@
           </v-card>
         </v-col>
         <v-col cols="4">
-          <v-card height="200px">
+          <v-card height="200px" tile outlined>
             <v-card-title
               style="color: #3949AB; font-weight:bold"
               class="justify-center"
@@ -109,7 +109,7 @@
 
       <v-row>
         <v-col cols="4">
-          <v-card height="200px">
+          <v-card height="200px" tile outlined>
             <v-card-title
               style="color: #3949AB; font-weight:bold"
               class="justify-center"
@@ -141,7 +141,7 @@
           </v-card>
         </v-col>
         <v-col cols="4">
-          <v-card height="200px">
+          <v-card height="200px" tile outlined>
             <v-card-title
               style="color: #3949AB; font-weight:bold"
               class="justify-center"
@@ -173,7 +173,7 @@
           </v-card>
         </v-col>
         <v-col cols="4">
-          <v-card height="200px">
+          <v-card height="200px" tile outlined>
             <v-card-title
               style="color: #3949AB; font-weight:bold"
               class="justify-center"

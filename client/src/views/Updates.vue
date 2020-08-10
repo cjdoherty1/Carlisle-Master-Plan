@@ -1,24 +1,24 @@
 <template>
-  <div style="padding-top: 100px">
+  <div style="padding-top: 240px">
     <v-container>
       <v-row>
         <v-col cols="8">
-          <v-card>
-            <v-card-title> Project Updates</v-card-title>
-            <v-card v-for="(update, i) in updates" :key="i">
+          <v-card tile outlined><v-card-title> Project Updates </v-card-title> </v-card>
+          <v-card tile outlined>
+            <v-card v-for="(update, i) in updates" :key="i" tile outlined>
               <v-card-title>{{ update.title }}</v-card-title>
-              <v-card-subtitle
-                >{{
-                  `${update.createdAt.getDate()}/${update.createdAt.getMonth()}/${update.createdAt.getFullYear()}`
+              <v-card-subtitle>
+                {{
+                `${update.createdAt.getDate()}/${update.createdAt.getMonth()}/${update.createdAt.getFullYear()}`
                 }}
-                by {{ update.author }}</v-card-subtitle
-              >
+                by {{ update.author }}
+              </v-card-subtitle>
               <v-card-text>{{ update.text }}</v-card-text>
             </v-card>
           </v-card>
         </v-col>
         <v-col>
-          <v-card>
+          <v-card tile outlined>
             <v-card-title>Add New Update</v-card-title>
             <v-container>
               <form>
@@ -46,9 +46,7 @@
                     placeholder="Update Description"
                   />
                 </fieldset>
-                <v-btn style="width:100%;" @click="createUpdate">
-                  Submit
-                </v-btn>
+                <v-btn style="width:100%;" @click="createUpdate">Submit</v-btn>
               </form>
             </v-container>
           </v-card>

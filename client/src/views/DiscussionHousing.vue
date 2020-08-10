@@ -1,29 +1,23 @@
 <template>
-  <div style="padding-top: 100px">
+  <div style="padding-top: 215px">
     <v-container>
       <v-row>
         <v-col cols="8">
-          <v-tabs 
-            vertical 
-            :value="activeTab" 
-            active
-            @click="console.log('activeTab')"
-          >
+          <v-tabs horizontal :value="activeTab" active @click="console.log('activeTab')">
             <v-tabs-slider></v-tabs-slider>
             <v-tab>Property Values</v-tab>
-            <v-tab><div style="text-align:left;">House Size</div></v-tab>
+            <v-tab>
+              <div style="text-align:left;">House Size</div>
+            </v-tab>
             <v-tab>Affordable Housing</v-tab>
-            <v-tab-item>
-              <h1>Property Values</h1>
-              <v-card v-for="(update, i) in updates" :key="i">
-                <v-card-text><div style="color: #3949AB;">{{ update.author }}:</div> {{ update.text }}</v-card-text>
+            <v-tab-item style="padding-top: 10px">
+              <v-card v-for="(update, i) in updates" :key="i" tile elevation="0" class="my-0">
+                <v-card-text>
+                  <div style="color: #3949AB;">{{ update.author }}:</div>
+                  {{ update.text }}
+                </v-card-text>
+                <hr class="my-0" />
               </v-card>
-            </v-tab-item>
-            <v-tab-item>
-              <h1>House Size</h1>
-            </v-tab-item>
-            <v-tab-item>
-              <h1>Affordable Housing</h1>
             </v-tab-item>
           </v-tabs>
         </v-col>
@@ -48,9 +42,7 @@
                     placeholder="Comment"
                   />
                 </fieldset>
-                <v-btn style="width:100%;" @click="createUpdate">
-                  Submit
-                </v-btn>
+                <v-btn style="width:100%;" @click="createUpdate">Submit</v-btn>
               </form>
             </v-container>
           </v-card>
