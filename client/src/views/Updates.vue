@@ -1,49 +1,61 @@
 <template>
-  <v-container>
-    <v-row>
-      <v-col cols="8">
-        <v-card>
-          <v-card-title> Project Updates</v-card-title>
-          <v-card v-for="(update, i) in updates" :key="i">
-            <v-card-title>{{ update.title }}</v-card-title>
-            <v-card-subtitle
-              >{{
-                `${update.createdAt.getDate()}/${update.createdAt.getMonth()}/${update.createdAt.getFullYear()}`
-              }}
-              by {{ update.author }}</v-card-subtitle
-            >
-            <v-card-text>{{ update.text }}</v-card-text>
+  <div style="padding-top: 100px">
+    <v-container>
+      <v-row>
+        <v-col cols="8">
+          <v-card>
+            <v-card-title> Project Updates</v-card-title>
+            <v-card v-for="(update, i) in updates" :key="i">
+              <v-card-title>{{ update.title }}</v-card-title>
+              <v-card-subtitle
+                >{{
+                  `${update.createdAt.getDate()}/${update.createdAt.getMonth()}/${update.createdAt.getFullYear()}`
+                }}
+                by {{ update.author }}</v-card-subtitle
+              >
+              <v-card-text>{{ update.text }}</v-card-text>
+            </v-card>
           </v-card>
-        </v-card>
-      </v-col>
-      <v-col>
-        <v-card>
-          <v-card-title>Add New Update</v-card-title>
-          <v-container>
-            <form>
-              <fieldset class="form-group">
-                <input
-                  class="form-control form-control-lg"
-                  type="text"
-                  v-model="title"
-                  placeholder="Update Title"
-                />
-              </fieldset>
-              <fieldset class="form-group">
-                <textarea
-                  class="form-control form-control-lg"
-                  rows="8"
-                  v-model="text"
-                  placeholder="Update Description"
-                />
-              </fieldset>
-              <v-btn style="width:100%;" @click="createUpdate"> Submit </v-btn>
-            </form>
-          </v-container>
-        </v-card>
-      </v-col>
-    </v-row>
-  </v-container>
+        </v-col>
+        <v-col>
+          <v-card>
+            <v-card-title>Add New Update</v-card-title>
+            <v-container>
+              <form>
+                <fieldset class="form-group">
+                  <input
+                    class="form-control form-control-lg"
+                    type="text"
+                    v-model="title"
+                    placeholder="Update Title"
+                  />
+                </fieldset>
+                <fieldset class="form-group">
+                  <input
+                    class="form-control form-control-lg"
+                    type="text"
+                    v-model="author"
+                    placeholder="Update Author"
+                  />
+                </fieldset>
+                <fieldset class="form-group">
+                  <textarea
+                    class="form-control form-control-lg"
+                    rows="8"
+                    v-model="text"
+                    placeholder="Update Description"
+                  />
+                </fieldset>
+                <v-btn style="width:100%;" @click="createUpdate">
+                  Submit
+                </v-btn>
+              </form>
+            </v-container>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
 </template>
 
 <script lang="ts">
@@ -67,7 +79,7 @@ export default class Updates extends Vue {
   error = "";
   text = "";
   title = "";
-  author = "Colin Doherty";
+  author = "";
 
   async created() {
     try {

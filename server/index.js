@@ -8,8 +8,10 @@ app.use(express.json());
 app.use(cors());
 
 const updates = require('./routes/api/updates');
+const housing_comments = require('./routes/api/housing_comments');
 
 app.use('/api/updates', updates);
+app.use('/api/housing_comments', housing_comments);
 
 //handle production
 if(process.env.NODE_ENV === 'production') {

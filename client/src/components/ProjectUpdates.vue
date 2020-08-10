@@ -21,7 +21,7 @@
               by {{ update.author }}</v-card-subtitle
             >
             <v-card-text style="color: #1B5E20">
-              <VClamp :expanded.sync="expanded" :max-lines="3">
+              <VClamp :expanded.sync="expanded" :max-lines="1000">
                 {{ update.text }}
               </VClamp>
             </v-card-text>
