@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:5000/api/updates/";
+const url = "/api/updates/";
 
 type Update = {
   text: string;
