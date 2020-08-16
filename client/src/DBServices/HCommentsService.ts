@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:5000/api/housing_comments/";
+const url = "/api/housing_comments/";
 
 type HComment = {
   text: string;
