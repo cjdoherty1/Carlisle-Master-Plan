@@ -10,6 +10,7 @@ import Snapshots from "../views/Snapshots.vue";
 import Updates from "../views/Updates.vue";
 import InputMap from "../views/InputMap.vue";
 import Admin from "../views/Admin.vue";
+import ContactDisplay from "../views/ContactDisplay.vue";
 
 Vue.use(VueRouter);
 
@@ -68,6 +69,11 @@ const routes: RouteConfig[] = [
     path: "/admin",
     name: "admin",
     component: Admin
+  },
+  {
+    path: "/contactdisplay",
+    name: "ContactDisplay",
+    component: ContactDisplay
   }
 ];
 
