@@ -24,22 +24,42 @@
       <v-row>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-img src="@/assets/demographics.jpg" height="300" class="text align-end">
-              <v-card-title style="color: white; font-weight:bold; font-size: 25pt" class="strokeme">Demographics</v-card-title>
+            <v-img
+              src="@/assets/demographics.jpg"
+              height="300"
+              class="text align-end"
+            >
+              <v-card-title
+                style="color: white; font-weight:bold; font-size: 25pt"
+                class="strokeme"
+                >Demographics</v-card-title
+              >
             </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-img src="@/assets/economic.jpg" height="300" class="text align-end">
-              <v-card-title style="color: white; font-weight:bold; font-size:25pt" class="strokeme">Economic Context</v-card-title>
+            <v-img
+              src="@/assets/economic.jpg"
+              height="300"
+              class="text align-end"
+            >
+              <v-card-title
+                style="color: white; font-weight:bold; font-size:25pt"
+                class="strokeme"
+                >Economic Context</v-card-title
+              >
             </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
             <v-img src="@/assets/ferns.jpg" height="300" class="text align-end">
-              <v-card-title style="color: white; font-weight:bold; font-size:25pt" class="strokeme">Housing</v-card-title>
+              <v-card-title
+                style="color: white; font-weight:bold; font-size:25pt"
+                class="strokeme"
+                >Housing</v-card-title
+              >
             </v-img>
           </v-card>
         </v-col>
@@ -47,31 +67,50 @@
       <v-row>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-img src="@/assets/historic.jpg" height="300" class="text align-end">
-            <v-card-title style="color: white; font-weight:bold; font-size: 25pt" class="strokeme">
-              <div>
-                Historic & Cultural
-                <br />Resources
-              </div>
-            </v-card-title>
+            <v-img
+              src="@/assets/historic.jpg"
+              height="300"
+              class="text align-end"
+            >
+              <v-card-title
+                style="color: white; font-weight:bold; font-size: 25pt"
+                class="strokeme"
+              >
+                <div>
+                  Historic & Cultural
+                  <br />Resources
+                </div>
+              </v-card-title>
             </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-img src="@/assets/transportation.jpg" height="300" class="text align-end">
-            <v-card-title
-              style="color: white; font-weight:bold; font-size:25pt" class="strokeme"
-            >Transportation</v-card-title>
+            <v-img
+              src="@/assets/transportation.jpg"
+              height="300"
+              class="text align-end"
+            >
+              <v-card-title
+                style="color: white; font-weight:bold; font-size:25pt"
+                class="strokeme"
+                >Transportation</v-card-title
+              >
             </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
           <v-card height="300px" ripple outlined hover tile>
-            <v-img src="@/assets/sustain.jpg" height="300" class="text align-end">
-            <v-card-title
-              style="color: white; font-weight:bold; font-size:25pt" class="strokeme"
-            >Sustainability</v-card-title>
+            <v-img
+              src="@/assets/sustain.jpg"
+              height="300"
+              class="text align-end"
+            >
+              <v-card-title
+                style="color: white; font-weight:bold; font-size:25pt"
+                class="strokeme"
+                >Sustainability</v-card-title
+              >
             </v-img>
           </v-card>
         </v-col>
@@ -88,11 +127,12 @@
               class="white--text align-end"
             >
               <v-card-title
-                style="font-weight:bold; font-size: 25pt" class="strokeme"
+                style="font-weight:bold; font-size: 25pt"
+                class="strokeme"
               >
                 <div>
-                  Recreation
-                  & <br /> Natural Resources
+                  Recreation &
+                  <br />Natural Resources
                 </div>
               </v-card-title>
             </v-img>
@@ -106,13 +146,16 @@
               height="300"
               class="white--text align-end"
             >
-              <v-card-title style="font-weight:bold; font-size:25pt" class="strokeme">
+              <v-card-title
+                style="font-weight:bold; font-size:25pt"
+                class="strokeme"
+              >
                 <div>
                   Public Facilities
                   <br />& Infrastructure
                 </div>
-              </v-card-title></v-img
-            >
+              </v-card-title>
+            </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
@@ -122,10 +165,13 @@
               :src="require('@/assets/Europe_land_use_map.png')"
               height="300"
               class="white--text align-end"
-              ><v-card-title style="font-weight:bold; font-size:25pt" class="strokeme"
-                >Land Use & Zoning</v-card-title
-              ></v-img
             >
+              <v-card-title
+                style="font-weight:bold; font-size:25pt"
+                class="strokeme"
+                >Land Use & Zoning</v-card-title
+              >
+            </v-img>
           </v-card>
         </v-col>
       </v-row>
@@ -137,10 +183,13 @@
               :src="require('@/assets/CPS_1520x656.png')"
               height="300"
               class="white--text align-end"
-              ><v-card-title style="font-weight:bold; font-size:25pt" class="strokeme"
-                >School</v-card-title
-              ></v-img
             >
+              <v-card-title
+                style="font-weight:bold; font-size:25pt"
+                class="strokeme"
+                >School</v-card-title
+              >
+            </v-img>
           </v-card>
         </v-col>
         <v-col cols="4">
@@ -152,10 +201,13 @@
               "
               height="300"
               class="white--text align-end"
-              ><v-card-title style="font-weight:bold; font-size:25pt" class="strokeme"
-                >Governance</v-card-title
-              ></v-img
             >
+              <v-card-title
+                style="font-weight:bold; font-size:25pt"
+                class="strokeme"
+                >Governance</v-card-title
+              >
+            </v-img>
           </v-card>
         </v-col>
       </v-row>
@@ -164,14 +216,10 @@
 </template>
 
 <style scoped>
-.strokeme
-{
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
+.strokeme {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 </style>
 

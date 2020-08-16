@@ -1,43 +1,35 @@
 import axios from "axios";
 
-const url = "/api/housing_comments/";
+const url = "http://localhost:5000/api/contact_us/";
 
-type HComment = {
-  text: string;
-  promt: string;
-  author: string;
+type ContactUs = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  comment: string;
   createdAt: Date;
   _id: string;
 };
 
-class HCommentsService {
-  //get updates
-  static getUpdates() {
+class ContactServices {
+  //get comments
+  static getComments() {
+    console.log("hwlllo");
     return new Promise((resolve, reject) => {
       axios
         .get(url)
         .then(res => {
           const data = res.data;
           resolve(
-            data.map((update: HComment) => ({
-              ...update,
-              createdAt: new Date(update.createdAt)
+            data.map((comment: ContactUs) => ({
+              ...comment,
+              createdAt: new Date(comment.createdAt)
             }))
           );
         })
         .catch(err => {
           reject(err);
         });
-    });
-  }
-
-  //create post
-  static insertPost(author: string, promt: string, text: string) {
-    console.log(author + promt + text);
-    return axios.post(url, {
-      author: author,
-      title: promt,
-      text: text
     });
   }
 
@@ -57,10 +49,10 @@ class HCommentsService {
     });
   }
 
-  //delete updates
-  static deletePost(id: string) {
+  //delete comments
+  static deleteComment(id: string) {
     return axios.delete(`${url}${id}`);
   }
 }
 
-export default HCommentsService;
+export default ContactServices;

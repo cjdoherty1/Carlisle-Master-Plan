@@ -21,7 +21,7 @@
             <input
               class="form-control form-control-lg"
               type="text"
-              v-model="title"
+              v-model="firstName"
               placeholder="First Name"
             />
           </fieldset>
@@ -29,7 +29,7 @@
             <input
               class="form-control form-control-lg"
               type="text"
-              v-model="title"
+              v-model="lastName"
               placeholder="Last Name"
             />
           </fieldset>
@@ -37,7 +37,7 @@
             <input
               class="form-control form-control-lg"
               type="text"
-              v-model="title"
+              v-model="email"
               placeholder="Email"
             />
           </fieldset>
@@ -45,7 +45,7 @@
             <textarea
               class="form-control form-control-lg"
               rows="8"
-              v-model="details"
+              v-model="comment"
               placeholder="Comment"
             />
           </fieldset>
@@ -54,7 +54,8 @@
             height="40px"
             color="#3949AB"
             dark
-            style="width:100%; "
+            style="width:100%"
+            @click="sendComment"
             >Submit</v-btn
           >
         </form>
@@ -74,7 +75,34 @@
 <script lang="ts">
 import Vue from "vue";
 import Component from "vue-class-component";
+import ContactServices from "../DBServices/ContactServices";
 
-@Component({})
-export default class Contact extends Vue {}
+type ContactUs = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  comment: string;
+  createdAt: Date;
+  _id: string;
+};
+
+@Component({
+  components: {}
+})
+export default class Contact extends Vue {
+  firstName = "";
+  lastName = "";
+  email = "";
+  comment = "";
+
+  async sendComment() {
+    console.log(this.firstName + this.lastName + this.email + this.comment);
+    await ContactServices.sendComment(
+      this.firstName,
+      this.lastName,
+      this.email,
+      this.comment
+    );
+  }
+}
 </script>

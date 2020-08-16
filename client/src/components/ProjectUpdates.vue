@@ -8,7 +8,7 @@
     </v-card-title>
     <div style="height: 425px; overflow-y:scroll;">
       <v-container>
-        <div v-for="(update, i) in updates.slice(0, 3)" :key="i">
+        <div v-for="(update, i) in updates.slice(0, 15)" :key="i">
           <v-divider />
           <v-card flat class="my-2">
             <v-card-title style="color: #3949AB">

@@ -8,6 +8,7 @@
       height="100vh"
     >
       <h1
+        class="strokeme"
         style="font-size:60pt; text-align:center; margin-top:260px; color: white"
       >
         <strong>Carlisle Forward Master Plan</strong>
@@ -23,8 +24,9 @@
           left: '50%',
           transform: 'translateY(1000%) translateX(-50%)'
         }"
-        ><strong>Click Here to Help Plan Carlisle's Future!</strong></v-btn
       >
+        <strong>Click Here to Help Plan Carlisle's Future!</strong>
+      </v-btn>
     </v-img>
     <v-container>
       <v-row>
@@ -33,8 +35,9 @@
             <v-card-title
               style="color: #3949AB; font-size: 30px"
               class="layout justify-center"
-              ><strong>WELCOME!</strong></v-card-title
             >
+              <strong>WELCOME!</strong>
+            </v-card-title>
             <div style="height: 425px; overflow-y:scroll;">
               <v-card-text style="color: #1B5E20" class="py-2">
                 The Town of Carlisle is undertaking a comprehensive master
@@ -49,25 +52,22 @@
                 • Sets forth our shared vision, values and goals for Carlisle in
                 the long-term.
               </v-card-text>
-              <v-card-text style="color: #1B5E20" class="py-0"
-                >• Includes planning recommendations for achieving our vision
-                and goals.
+              <v-card-text style="color: #1B5E20" class="py-0">
+                • Includes planning recommendations for achieving our vision and
+                goals.
               </v-card-text>
-              <v-card-text style="color: #1B5E20" class="py-0"
-                >• Includes an implementation action plan for getting things
-                done in the short-term.
+              <v-card-text style="color: #1B5E20" class="py-0">
+                • Includes an implementation action plan for getting things done
+                in the short-term.
               </v-card-text>
               <v-card-text style="color: #1B5E20" class="py-2">
                 The all-volunteer Master Plan Steering Committee (MPSC), is
                 working to engage the community in a conversation about our
                 shared values and collective vision for Carlisle’s future.
               </v-card-text>
-              <v-card-text
-                style="color: #1B5E20; font-weight:bold"
-                class="py-2"
+              <v-card-text style="color: #1B5E20; font-weight:bold" class="py-2"
+                >We need you and we want to hear your ideas!</v-card-text
               >
-                We need you and we want to hear your ideas!
-              </v-card-text>
             </div>
             <v-card-actions class="justify-center">
               <v-btn
@@ -90,8 +90,9 @@
             <v-card-title
               style="color: #3949AB; font-size: 30px"
               class="layout justify-center"
-              ><strong>UPCOMING EVENTS</strong></v-card-title
             >
+              <strong>UPCOMING EVENTS</strong>
+            </v-card-title>
             <v-card-text style="color: #1B5E20">
               Here you can find many different ways to participate in the Master
               Plan process. Sign up for Updates, post your comments on the Idea
@@ -117,6 +118,14 @@
     </v-container>
   </div>
 </template>
+
+<style scoped>
+.strokeme {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+</style>
 
 <script lang="ts">
 import Vue from "vue";
