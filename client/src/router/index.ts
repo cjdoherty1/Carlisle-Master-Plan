@@ -56,11 +56,6 @@ const routes: RouteConfig[] = [
     component: Updates
   },
   {
-    path: "/ideawall",
-    name: "IdeaWall",
-    component: IdeaWall
-  },
-  {
     path: "/inputmap",
     name: "InputMap",
     component: InputMap
