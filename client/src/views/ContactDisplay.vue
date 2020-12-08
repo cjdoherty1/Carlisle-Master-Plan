@@ -30,7 +30,8 @@ type ContactUs = {
 
 export default class ContactDisplay extends Vue {
   contacts: ContactUs[] = [];
-  error: "";
+  error = "";
+  
 
   async created() {
     try {
